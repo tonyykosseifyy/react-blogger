@@ -7,9 +7,16 @@ nav.navbar {
   display: flex ;
   align-items: center ;
 
-  margin-left: 20px ;
+  margin-left: 60px ;
 }
+.navbar-left {
+  display: flex ;
+  align-items: flex-end ;
+}
+
 .navbar-desktop-links > div {
   display: flex ;
   align-items: flex-end;
+  
+  margin: 0 13px ;
 }

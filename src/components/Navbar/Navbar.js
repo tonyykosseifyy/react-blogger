@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import { IoIosArrowDown } from "react-icons/io";
+
 
 const links = ["Product" , "Company" , "Connect"];
 
@@ -12,6 +14,7 @@ const Navbar = () => {
           { links.map(( link , index ) => (
             <div key={link} className="desktop-link">
               <a>{link}</a>
+              <IoIosArrowDown />
             </div>
           ))}
         </div>
