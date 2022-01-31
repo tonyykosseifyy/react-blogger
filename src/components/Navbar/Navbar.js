@@ -29,7 +29,9 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-
+      <div className="navbar-right">
+        
+      </div>
     </nav>
   );
 };

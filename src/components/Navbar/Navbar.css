@@ -80,3 +80,9 @@ nav.navbar {
 .additional-links > div > a:hover {
   font-weight: bold ;
 }
+
+/* navbar-right */
+
+.navbar-right {
+  display: flex ;
+}
