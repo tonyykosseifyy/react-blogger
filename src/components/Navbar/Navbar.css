@@ -1,7 +1,7 @@
 nav.navbar {
   display: flex ;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: baseline;
   padding: 10vh 9vw ;
 }
 

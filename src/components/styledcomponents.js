@@ -4,8 +4,16 @@ export const Button = styled.button`
   border: none ;
   outline: none ;
   cursor: pointer ;
-  border-radius: 10px ;
+  border-radius: 50px ;
   color: white ;
   background-color: transparent ;
-  padding: ${(props) => props.pd || "0px" };
+  margin-right: 15px ;
+  margin-bottom: -12px ;
+  transition: .3s ease-out ;
+  font-size: 18px ;
+  padding: ${(props) => props.pd || "12px 10px" };
+
+  &:hover {
+    background-color: black
+  }
 `
