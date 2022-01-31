@@ -11,7 +11,7 @@ export const Button = styled.button`
   margin-bottom: -12px ;
   transition: .3s ease-out ;
   font-size: 18px ;
-  padding: ${(props) => props.pd || "12px 10px" };
+  padding: ${(props) => props.pd.join(" ") || "12px 10px" };
 
   &:hover {
     background-color: black

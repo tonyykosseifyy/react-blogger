@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <Button>Login</Button>
-        <Button pd="16px 38px">Sign Up</Button>
+        <Button pd={["16px","38px"]}>Sign Up</Button>
       </div>
     </nav>
   );
