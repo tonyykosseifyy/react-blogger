@@ -54,13 +54,19 @@ nav.navbar {
   background-color: white;
   position: absolute;
   top: calc(100% + 10px);
-  min-height: 70px;
-  width: 60px;
+  left: -20px;
+  width: 170px ;
+  padding: 20px ;
+  border-radius: 5px ;
 
   display: flex ;
   flex-direction: column;
   align-items: flex-start;
 }
-.additional-links > a {
+.additional-links > div  {
   color: black ;
+  margin: 6px 0 ;
+}
+.additional-links > div > a:hover {
+  font-weight: bold ;
 }

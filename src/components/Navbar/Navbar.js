@@ -18,8 +18,10 @@ const Navbar = () => {
               <IoIosArrowDown />
               { link === "Connect" && 
                 <div className="additional-links">
-                  { additionalLinks.map((addLink) => (
-                    <a key={addLink}>{addlink}</a>
+                  { additionalLinks.map((item) => (
+                    <div key={item}>
+                      <a>{item}</a>
+                    </div>
                   ))}
                 </div>
               }
