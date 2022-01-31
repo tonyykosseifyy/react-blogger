@@ -54,6 +54,13 @@ nav.navbar {
   background-color: white;
   position: absolute;
   top: calc(100% + 10px);
-  min-height: 10px;
+  min-height: 70px;
   width: 60px;
+
+  display: flex ;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.additional-links > a {
+  color: black ;
 }

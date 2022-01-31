@@ -4,6 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 
 const links = ["Product" , "Company" , "Connect"];
+const additionalLinks = ["Contact","Newsletter","LinkedIn"];
 
 const Navbar = () => {
   return (
@@ -17,7 +18,9 @@ const Navbar = () => {
               <IoIosArrowDown />
               { link === "Connect" && 
                 <div className="additional-links">
-                  
+                  { additionalLinks.map((addLink) => (
+                    <a key={addLink}>{addlink}</a>
+                  ))}
                 </div>
               }
             </div>
