@@ -2,4 +2,5 @@ header {
   min-height: 400px ;
   background-color: var(--Light-red);
   border-bottom-left-radius: 20%;
+  color: white ;
 }
