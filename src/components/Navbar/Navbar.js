@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
-
+import { Button } from "../styledcomponents.js";
 
 const links = ["Product" , "Company" , "Connect"];
 const additionalLinks = ["Contact","Newsletter","LinkedIn"];
@@ -30,7 +30,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-right">
-        
+        <Button>Login</Button>
+        <Button>Sign Up</Button>
       </div>
     </nav>
   );

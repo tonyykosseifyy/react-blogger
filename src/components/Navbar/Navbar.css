@@ -1,5 +1,7 @@
 nav.navbar {
   display: flex ;
+  justify-content: space-between;
+  align-items: flex-end;
   padding: 10vh 9vw ;
 }
 
