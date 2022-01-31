@@ -9,3 +9,7 @@ nav.navbar {
 
   margin-left: 20px ;
 }
+.navbar-desktop-links > div {
+  display: flex ;
+  align-items: flex-end;
+}
