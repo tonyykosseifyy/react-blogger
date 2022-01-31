@@ -17,6 +17,11 @@ nav.navbar {
 .navbar-desktop-links > div {
   display: flex ;
   align-items: flex-end;
-  
+
   margin: 0 13px ;
 }
+
+.navbar-desktop-links > div > a {
+  margin-right: 6px ;
+}
+
