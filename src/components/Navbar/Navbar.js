@@ -5,7 +5,13 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={require("../../assets/logo.svg")} alt="Blogr Logo" />
+      <div className="navbar-left">
+        <img src={require("../../assets/logo.svg")} alt="Blogr Logo" />
+        <div className="navbar-desktop-links">
+          
+        </div>
+      </div>
+
     </nav>
   );
 };

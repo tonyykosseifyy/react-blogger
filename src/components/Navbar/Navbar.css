@@ -2,3 +2,10 @@ nav.navbar {
   display: flex ;
   padding: 10vh 9vw ;
 }
+
+.navbar-desktop-links {
+  display: flex ;
+  align-items: center ;
+
+  margin-left: 20px ;
+}
