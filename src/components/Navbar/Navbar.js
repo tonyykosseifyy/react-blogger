@@ -15,6 +15,11 @@ const Navbar = () => {
             <div key={link} className={`desktop-link ${link === "Connect" && "connect"}`} >
               <a>{link}</a>
               <IoIosArrowDown />
+              { link === "Connect" && 
+                <div className="additional-links">
+                  
+                </div>
+              }
             </div>
           ))}
         </div>

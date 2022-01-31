@@ -20,6 +20,7 @@ nav.navbar {
 
   margin: 0 13px ;
   cursor: pointer ;
+  position: relative;
 }
 .navbar-desktop-links > div.connect > svg {
   transition: .3s ease-out ;
@@ -47,4 +48,12 @@ nav.navbar {
 }
 .navbar-desktop-links > div:hover > a::after {
   transform: translateX(-50%) scaleX(100%);
+}
+
+.additional-links {
+  background-color: white;
+  position: absolute;
+  top: calc(100% + 10px);
+  min-height: 10px;
+  width: 60px;
 }
