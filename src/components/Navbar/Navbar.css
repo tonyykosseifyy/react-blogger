@@ -19,17 +19,17 @@ nav.navbar {
   align-items: flex-end;
 
   margin: 0 13px ;
+  cursor: pointer ;
 }
-.navbar-desktop-links > div > svg {
+.navbar-desktop-links > div.connect > svg {
   transition: .3s ease-out ;
 }
-.navbar-desktop-links > div:hover > svg {
+.navbar-desktop-links > div.connect:hover > svg {
   transform: rotateZ(180deg);
 } 
 
 .navbar-desktop-links > div > a {
   position: relative;
-  cursor: pointer ;
   margin-right: 6px ;
 }
 
@@ -45,6 +45,6 @@ nav.navbar {
   transform: translateX(-50%) scaleX(0);
   transition: .3s ease-out ;
 }
-.navbar-desktop-links > div > a:hover::after {
+.navbar-desktop-links > div:hover > a::after {
   transform: translateX(-50%) scaleX(100%);
 }

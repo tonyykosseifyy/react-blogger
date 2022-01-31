@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={require("../../assets/logo.svg")} alt="Blogr Logo" />
         <div className="navbar-desktop-links">
           { links.map(( link , index ) => (
-            <div key={link} className="desktop-link">
+            <div key={link} className={`desktop-link ${link === "Connect" && "connect"}`} >
               <a>{link}</a>
               <IoIosArrowDown />
             </div>
